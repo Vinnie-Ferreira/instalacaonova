@@ -54,35 +54,8 @@ rm safesign_2_0_amd64.deb
 rm pje-office_amd64.deb
 
 echo 'Instalações do SafeSign e PJE Office estão completas. Agora tente logar no PJE do TJRJ.'
-
-#zsh...
-
-echo 'Que tal deixar o terminal maneiro??'
-
-echo 'Você deseja instalar o ZSH? (s ou n)' 
-read resp
-if [ $resp. != 's' ];
-then
-wget https://github.com/vjspranav/KaliZSH/archive/refs/heads/main.zip
-
-unzip main.zip
-cd KaliZSH-main/
-chmod +x script.sh
-./script.sh
-
-zsh
 cd
 cd /usr/share/pje-office/
 chmod +x pjeOffice.sh
 ./pjeOffice.sh
 
-else
-echo 'Vc merece um terminal cafona'
-
-cd
-cd /usr/share/pje-office/
-chmod +x pjeOffice.sh
-./pjeOffice.sh
-
-exit
-fi
