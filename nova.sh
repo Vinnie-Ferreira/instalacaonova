@@ -29,7 +29,7 @@ cd Downloads
 
 #Baixando arquivos
 
-wget https://github.com/Vinnie-Ferreira/safesignoab/archive/refs/heads/main.zip
+wget https://safesign.gdamericadosul.com.br/content/SafeSign_IC_Standard_Linux_ub2204_3.8.0.0_AET.000.zip
 
 wget https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_amd64.deb
 --2022-11-25 22:08:30--  https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_amd64.deb
@@ -49,6 +49,9 @@ sudo dpkg -i safesignoab.deb
 sudo dpkg -i pje-office_amd64.deb
 
 sudo apt-get update
+sudo apt-get dist-upgrade -y
+
+systemctl start pcscd.service ; systemctl enable pcscd.service
 
 rm safesignoab.deb
 rm pje-office_amd64.deb
