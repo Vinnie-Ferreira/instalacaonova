@@ -37,8 +37,8 @@ wget https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_a
 #organizando arquivos
 
 unzip main.zip
-sudo mv ~/Downloads/assinadoroab_2_0_amd64-main/safesign_2_0_amd64.deb  ~/Downloads/
-rm -rf main.zip assinadoroab_2_0_amd64-main
+sudo mv ~/Downloads/safesignoab-main/safesign_2_0_amd64.deb  ~/Downloads/
+rm -rf main.zip safesignoab-main
 
 #instalando safesign
 
