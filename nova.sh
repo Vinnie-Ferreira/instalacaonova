@@ -29,7 +29,7 @@ cd Downloads
 
 #Baixando arquivos
 
-wget https://github.com/Vinnie-Ferreira/assinadoroab_2_0_amd64/archive/refs/heads/main.zip
+wget https://github.com/Vinnie-Ferreira/assinadoroab/archive/refs/heads/main.zip
 
 wget https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_amd64.deb
 --2022-11-25 22:08:30--  https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_amd64.deb
