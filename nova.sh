@@ -48,11 +48,6 @@ sudo dpkg -i safesign_2_0_amd64.deb
 
 sudo dpkg -i pje-office_amd64.deb
 
-cd
-cd /usr/share/pje-office/
-chmod +x pjeOffice.sh
-./pjeOffice.sh
-
 sudo apt-get update
 
 rm safesign_2_0_amd64.deb
@@ -76,8 +71,18 @@ chmod +x script.sh
 ./script.sh
 
 zsh
+cd
+cd /usr/share/pje-office/
+chmod +x pjeOffice.sh
+./pjeOffice.sh
 
 else
-echo Vc merece um terminal cafona
+echo 'Vc merece um terminal cafona'
+
+cd
+cd /usr/share/pje-office/
+chmod +x pjeOffice.sh
+./pjeOffice.sh
+
 exit
 fi
