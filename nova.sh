@@ -36,14 +36,13 @@ wget https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_a
 
 #organizando arquivos
 
-unzip main.zip
-sudo mv ~/Downloads/safesignoab-main/safesignoab.deb  ~/Downloads/
+unzip SafeSign_IC_Standard_Linux_ub2204_3.8.0.0_AET.000.zip
+
 rm -rf main.zip safesignoab-main
 
 #instalando safesign
 
-sudo dpkg -i safesignoab.deb
-
+sudo dpkg -i SafeSign\ IC\ Standard\ Linux\ 3.8.0.0-AET.000\ ub2204\ x86_64.deb
 #instalando o pje-Office
 
 sudo dpkg -i pje-office_amd64.deb
