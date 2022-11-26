@@ -37,12 +37,12 @@ wget https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_a
 #organizando arquivos
 
 unzip main.zip
-sudo mv ~/Downloads/safesignoab-main/safesign_2_0_amd64.deb  ~/Downloads/
+sudo mv ~/Downloads/safesignoab-main/safesignoab.deb  ~/Downloads/
 rm -rf main.zip safesignoab-main
 
 #instalando safesign
 
-sudo dpkg -i safesign_2_0_amd64.deb
+sudo dpkg -i safesignoab.deb
 
 #instalando o pje-Office
 
@@ -50,7 +50,7 @@ sudo dpkg -i pje-office_amd64.deb
 
 sudo apt-get update
 
-rm safesign_2_0_amd64.deb
+rm safesignoab.deb
 rm pje-office_amd64.deb
 
 echo 'Instalações do SafeSign e PJE Office estão completas. Agora tente logar no PJE do TJRJ.'
