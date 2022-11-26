@@ -29,10 +29,16 @@ cd Downloads
 
 #Baixando arquivos
 
-wget https://github.com/Vinnie-Ferreira/instaladoroabrj/releases/download/assinador/safesign_2_0_amd64.deb
+wget https://github.com/Vinnie-Ferreira/assinadoroab_2_0_amd64/archive/refs/heads/main.zip
 
 wget https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_amd64.deb
 --2022-11-25 22:08:30--  https://cnj-pje-programs.s3-sa-east-1.amazonaws.com/pje-office/pje-office_amd64.deb
+
+#organizando arquivos
+
+unzip main.zip
+sudo mv ~/Downloads/assinadoroab_2_0_amd64-main/safesign_2_0_amd64.deb  ~/Downloads/
+rm -rf main.zip assinadoroab_2_0_amd64-main
 
 #instalando safesign
 
